@@ -52,19 +52,22 @@ function compareColors(currentColourIndex){
         } 
     }
     else {
-    console.log('False.');
+        console.log('False.');
 
-    $("body").addClass("game-over");
-    setTimeout(function(){
-        $("body").removeClass("game-over");
-    }, 150);
+        $("body").addClass("game-over");
+        setTimeout(function(){
+            $("body").removeClass("game-over");
+        }, 150);
 
-    $("#level-title").text("Game Over! Press Any Key To Restart! Your Score Is " + level);
+        var gameOverSound = new Audio("./sounds/wrong.mp3");
+        gameOverSound.play();
 
-    level = 0;
-    playerColors = [];
-    sequenceColors = [];
-    gameStarted = false;
+        $("#level-title").text("Game Over! Press Any Key To Restart! Your Score Is " + level);
+
+        level = 0;
+        playerColors = [];
+        sequenceColors = [];
+        gameStarted = false;
     }
 }
 
