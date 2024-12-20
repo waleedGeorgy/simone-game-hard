@@ -65,6 +65,7 @@ body {
 
 #footer-text{
   color: whitesmoke;
-  font-size: 0.7rem;
-  font-family:'Press Start 2P', cursive;
+  font-size: 0.9rem;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: 0.5rem;
 }
