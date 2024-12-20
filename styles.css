@@ -62,3 +62,9 @@ body {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+
+#footer-text{
+  color: whitesmoke;
+  font-size: 0.7rem;
+  font-family:'Press Start 2P', cursive;
+}
