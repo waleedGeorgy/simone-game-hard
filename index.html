@@ -1,44 +1,37 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Simon Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Press+Start+2P"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <title>Simon Game</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
-</head>
+  <body>
+    <h1 id="level-title">Press Any Key to Start</h1>
 
-<body>
-  <h1 id="level-title">Press Any Key to Start</h1>
-  <div class="container">
-    
-    <div lass="row">
+    <div class="container">
+      <div class="row">
+        <div type="button" id="red" class="btn red"></div>
+        <div type="button" id="green" class="btn green"></div>
+        <div type="button" id="purple" class="btn purple"></div>
+      </div>
 
-      <div type="button" id="red" class="btn red"></div>
-
-      <div type="button" id="green" class="btn green"></div>
-
-      <div type="button" id="purple" class="btn purple"></div>
-
+      <div class="row">
+        <div type="button" id="yellow" class="btn yellow"></div>
+        <div type="button" id="blue" class="btn blue"></div>
+        <div type="button" id="cyan" class="btn cyan"></div>
+      </div>
     </div>
 
-    <div class="row">
-
-      <div type="button" id="yellow" class="btn yellow"></div>
-
-      <div type="button" id="blue" class="btn blue"></div>
-
-      <div type="button" id="cyan" class="btn cyan"></div>
-
-    </div><br><br><br><hr>
     <footer>
-      <p id="footer-text">© Waleed Georgy</p>
+      <p id="footer-text">© Waleed Georgy 2024</p>
     </footer>
-  </div>
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <script src="./game.js"></script>
-
-</body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./game.js"></script>
+  </body>
 </html>
